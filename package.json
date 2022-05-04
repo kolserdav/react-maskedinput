@@ -1,5 +1,5 @@
 {
-  "name": "react-maskedinput",
+  "name": "@kolserdav/react-maskedinput",
   "version": "4.0.2",
   "description": "Masked <input/> React component",
   "main": "lib/index.js",
@@ -23,13 +23,13 @@
     "prop-types": "^15.5.7"
   },
   "peerDependencies": {
-    "react": "^0.14.9 || ^15.3.0 || ^16.0.0"
+    "react": "^0.14.9 || ^15.3.0 || ^16.0.0 || ^18.0.0"
   },
   "devDependencies": {
     "eslint-config-jonnybuchanan": "5.0.x",
     "nwb": "0.21.x",
-    "react": "16.x",
-    "react-dom": "16.x"
+    "react": "18.x",
+    "react-dom": "18.x"
   },
   "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
   "homepage": "https://github.com/insin/react-maskedinput",
