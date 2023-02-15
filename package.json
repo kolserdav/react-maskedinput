@@ -1,9 +1,10 @@
 {
   "name": "@kolserdav/react-maskedinput",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Masked <input/> React component",
   "main": "lib/index.js",
   "module": "es/index.js",
+  "types": "types/index.d.ts",
   "files": [
     "es",
     "lib",
@@ -12,6 +13,7 @@
   "scripts": {
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
+    "types": "tsc -p .",
     "lint": "eslint src tests",
     "start": "nwb serve-react-demo",
     "test": "nwb test-react",
@@ -19,13 +21,14 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
-    "inputmask-core": "^2.1.1",
+    "@kolserdav/inputmask-core": "^2.1.1",
     "prop-types": "^15.5.7"
   },
   "peerDependencies": {
-    "react": "^0.14.9 || ^15.3.0 || ^16.0.0 || ^18.0.0"
+    "react": "^16.0.0 || ^18.0.0"
   },
   "devDependencies": {
+    "@types/react": "^18.0.28",
     "eslint-config-jonnybuchanan": "5.0.x",
     "nwb": "0.21.x",
     "react": "18.x",
