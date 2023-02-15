@@ -1,6 +1,6 @@
 {
   "name": "@kolserdav/react-maskedinput",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "description": "Masked <input/> React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -8,7 +8,8 @@
   "files": [
     "es",
     "lib",
-    "umd"
+    "umd",
+    "types"
   ],
   "scripts": {
     "build": "nwb build-react-component",
